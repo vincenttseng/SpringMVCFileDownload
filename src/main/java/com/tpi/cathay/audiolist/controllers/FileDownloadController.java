@@ -1,4 +1,4 @@
-package com.kb.controllers;
+package com.tpi.cathay.audiolist.controllers;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -46,7 +46,7 @@ public class FileDownloadController implements ServletContextAware {
 		// get the absolute path of the application
        
         String appPath = servletContext.getRealPath("");
-        System.out.println("appPath = " + appPath);
+        System.out.println("xxxx appPath = " + appPath);
  
         // absolute path of the file
         String fullPath = appPath + filePath;      
